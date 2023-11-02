@@ -1,0 +1,14 @@
+first_name = "John"
+last_name = "Doe"
+full_name = first_name + " " + last_name
+print("Full Name:", full_name)
+
+# String formatting
+age = 25
+message = f"My name is {full_name} and I am {age} years old."
+print(message)
+
+# Split a string into a list of words
+sentence = "This is a sample sentence."
+words = sentence.split()
+print("Words:", words)
