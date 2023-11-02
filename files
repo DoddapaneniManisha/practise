@@ -1,0 +1,7 @@
+with open("sample.txt", "r") as file:
+    content = file.read()
+    print("File Content:\n", content)
+
+# Write to a file
+with open("output.txt", "w") as file:
+    file.write("This is a sample text that we are writing to a file.")
