@@ -1,0 +1,4 @@
+fruits1 = {"apple", "banana", "cherry"}
+fruits2 = {"banana", "orange", "strawberry"}
+common_fruits = fruits1.intersection(fruits2)
+print("Common fruits:", common_fruits)
