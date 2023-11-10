@@ -1,0 +1,6 @@
+import re
+
+text = "The code is written in Python 3.5"
+pattern = r"\d+\.\d+"
+matches = re.findall(pattern, text)
+print("Version:", matches[0])
