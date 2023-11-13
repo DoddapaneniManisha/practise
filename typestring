@@ -1,0 +1,4 @@
+//create a variable of type string & try to ad a number to
+let a=1;
+let b="Manisha";
+console.log(a+b)
