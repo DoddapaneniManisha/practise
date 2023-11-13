@@ -1,0 +1,7 @@
+const m1 = {
+    name : "Manisha",
+    class : "B-Tech",
+    Salary : 15000
+}
+m1['sister'] = "nithisha"
+console.log(m1)
