@@ -1,0 +1,7 @@
+let age=prompt("what is your age?")
+if (age>10 && age<=20){
+  console.log("your age is between 10 & 20")
+}
+else{
+   console.log("your age doesnot lies between 10 & 20")
+}
