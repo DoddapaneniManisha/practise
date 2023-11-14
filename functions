@@ -1,0 +1,13 @@
+function  names(x,y,v)
+{
+console.log("Hi")
+return v+(x+y)
+
+}
+let a ="manisha";
+let b ="nithisha";
+let c ="karthika";
+
+console.log("names of a and b is",names (a,b))
+console.log("names of b and c is",names (b,c))
+console.log("names of c and a is ",names(c,a))
