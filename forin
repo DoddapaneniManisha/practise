@@ -1,0 +1,21 @@
+var studentMarks= {
+    Manisha  : 11,
+    Nithisha : 36,
+    Karthika : 76
+};
+for(var student in studentMarks)
+{
+    if(studentMarks.hasOwnProperty(student))
+    {
+        console.log(student + "'studentMarks:" + studentMarks[student]);
+    }
+}
+//let marks ={
+   // manisha : 1,
+    //chaithu : 7,
+    //sai : 21
+//}
+//for(let key in marks)
+//{
+  //  console.log("The marks of" +"are"+marks[key])
+//}
